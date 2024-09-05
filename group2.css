@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #1414;
+  }
+  li {
+    float: right;
+  }
+  hr {
+      opacity: 0.3;
+      background-color: black;
+      line-height: 20px;
+  }
+  li a {
+      display: block;
+      text-align: center;
+      padding: 14px;
+      color: black;
+      text-decoration: none;
+  }
+  li a:hover {
+      background-color:violet;
+      color:white;
+  }
+  .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; 
+  }
+  .ben {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .start {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;                     
+  }
+  .end {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #1414;
+  }
+  .end img{
+      margin-top: 50px;
+  }
+  .end img:hover{
+      opacity: 0.9;
+  }
+  .container button {
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      width: 100px;
+      height: 50px;
+  }
+  .container button a{
+      text-decoration: none;
+      color: #fff;
+  }
+  .all {
+      border: 2px solid #fff;
+      background-color:  white;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .body{
+      border: 2px solid black;
+      padding: 80px;
+      color: whitesmoke;
+  }
+  .haed {
+      padding-left: 50px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  #w{
+      width: 30px;
+      height: 30px;
+  }
+  .background-text  {
+     align-items: center;
+     display: flex;
+     text-align: center;
+     border: 20px black;
+     color:#333;
+  }
+  .background-text h1{
+      text-shadow: #fff;
+      position: absolute;
+      padding-top: 22px;
+      font-size: 30px;
+      font-weight: 600px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .background-text h2{
+      position: relative;
+      font-size: 100px;
+      opacity: 0.3;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
